@@ -3,9 +3,8 @@ import java.util.*;
 public class Main {
 
     private static final List<Integer> nums = new ArrayList<>(List.of(1, 1, 2, 3, 4, 4, 5, 5, 6, 7));
-    private static final List<String> words = new ArrayList<>(List.of("Сегодня", "на", "улице", "было",
-            "яркое", "солнце", "солнце", "светило",
-            "так", "ярко", "что", "слепило", "глаза", "прохожих"));
+    private static final List<String> words = new ArrayList<>(List.of("Один", "Два", "Два", "Три","Три","Три"));
+
 
 
     public static void main(String[] args) {
@@ -49,7 +48,7 @@ public class Main {
             } else {
                 wordCount.put(word, 1);
             }
-            System.out.println(wordCount.values());
         }
+        System.out.println(wordCount.values());
     }
 }
